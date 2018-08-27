@@ -69,3 +69,5 @@ pub trait Energy: Dimensioned {}
 pub trait Power: Dimensioned {}
 
 pub trait AmountOfSubstance: Dimensioned {}
+pub trait Information: Dimensioned {}
+pub trait RateOfInformation: Dimensioned {}

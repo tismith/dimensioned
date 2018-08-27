@@ -227,11 +227,12 @@ mod ucum;
 mod mks;
 mod cgs;
 mod fps;
+mod info;
 
 use std::io::Write;
 
 fn main() {
-    let systems = [si::new(), ucum::new(), mks::new(), cgs::new(), fps::new()];
+    let systems = [si::new(), ucum::new(), mks::new(), cgs::new(), fps::new(), info::new()];
     for s in &systems {
         make_system(s);
     }

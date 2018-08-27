@@ -168,7 +168,7 @@ pub mod f64prefixes;
 
 
 pub use traits::*;
-pub use unit_systems::{si, ucum, cgs, mks, fps};
+pub use unit_systems::{si, ucum, cgs, mks, fps, info};
 
 
 // Used for the make_units macro
